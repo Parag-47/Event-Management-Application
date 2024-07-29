@@ -1,4 +1,14 @@
 {
+  "name": "event-management--application",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --env-file=.env src/server.js"
+  },
+  "author": "Parag",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.6",
